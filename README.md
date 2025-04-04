@@ -19,7 +19,7 @@ An advanced Retrieval-Augmented Generation (RAG) system specialized for trading 
 ```
 ┌─────────────┐    ┌──────────────┐    ┌─────────────┐    ┌─────────────┐
 │             │    │              │    │             │    │             │
-│ EPUB/PDF    │───▶│ Contextual   │───▶│ HuggingFace │───▶│  Supabase   │
+│ EPUB/PDF    │──▶│ Contextual    │──▶│ HuggingFace │──▶│  Supabase   │
 │ Documents   │    │ Chunking     │    │ Embeddings  │    │  Vector DB  │
 │             │    │              │    │             │    │             │
 └─────────────┘    └──────────────┘    └─────────────┘    └──────┬──────┘
@@ -27,7 +27,7 @@ An advanced Retrieval-Augmented Generation (RAG) system specialized for trading 
                                                                  ▼
                    ┌──────────────┐    ┌─────────────┐    ┌─────────────┐
                    │              │    │             │    │             │
-                   │   LLM-based  │◀───┤ Agentic RAG │◀───┤ User Query  │
+                   │   LLM-based  │◀──┤ Agentic RAG │◀───┤ User Query  │
                    │   Response   │    │ Processing  │    │ Interface   │
                    │              │    │             │    │             │
                    └──────────────┘    └─────────────┘    └─────────────┘
